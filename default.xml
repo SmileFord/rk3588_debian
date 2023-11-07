@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="tom" fetch="./" review=""/>
-  <project name="tom" path="yocto/master" remote="tom" dest-branch="master" clone-depth="1"/>
-  <project name="tom" path="yocto/main" remote="tom" dest-branch="main" clone-depth="1"/>
-  <project name="tom" path="yocto/test" remote="tom" dest-branch="test" clone-depth="1"/>
+  <project name="tom" path="yocto/master" remote="tom" revision="master" clone-depth="1"/>
+  <project name="tom" path="yocto/main" remote="tom" revision="main" clone-depth="1"/>
+  <project name="tom" path="yocto/test" remote="tom" revision="test" clone-depth="1"/>
 </manifest>
